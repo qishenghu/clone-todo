@@ -9,7 +9,7 @@
         "lint": "next lint",
         "db:push": "prisma db push",
         "db:migrate": "prisma migrate dev",
-        "db:deploy": "prisma migrate resolve --applied 0_init",
+        "db:deploy": "prisma migrate deploy",
         "db:reset": "prisma migrate reset",
         "db:browse": "prisma studio",
         "generate": "zenstack generate",
